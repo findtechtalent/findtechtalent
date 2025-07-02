@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fef9f6;
+}
+
+header.hero {
+    background: #cfd8dc;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+button, .whatsapp-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #455a64;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #eceff1;
+}
